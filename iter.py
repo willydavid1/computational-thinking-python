@@ -4,6 +4,7 @@
 def run ():
     frutas = ['manzana', 'pera', 'mango']
     iterador = iter(frutas)
+    print(f'iterador {iterador}')
     print(f'iterador {next(iterador)}')
     print(f'iterador {next(iterador)}')
     print(f'iterador {next(iterador)}')
